@@ -1,14 +1,14 @@
-import React from 'react';
-import Post from '../../components/common/Post';
+import React from "react";
+import Post from "../../components/common/Post";
 
 export default function index() {
   return (
-    <section
+    <section id="blog"
       className="py-16 bg-white md:py-24 lg:pb-52"
       style={{
         backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center top',
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center top",
       }}
     >
       <div className="container px-4 mx-auto">

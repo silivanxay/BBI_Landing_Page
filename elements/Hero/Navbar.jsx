@@ -10,10 +10,11 @@ import Toggle from '../../components/Darkmode/ThemeToggle';
 
 const navigation = [
   { name: 'Home', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Blogs', href: '#' },
-  { name: 'Prices', href: '#' },
+  { name: 'Features', href: '#feature' },
+  { name: 'Blogs', href: '#blog' },
+  { name: 'Prices', href: '#prices' },
   { name: 'About', href: '#' },
+  { name: 'Contact', href: '#contact' },
 ];
 
 export default function Navbar() {
@@ -24,13 +25,11 @@ export default function Navbar() {
           <div className="w-1/2 xl:w-1/3">
             <Logo />
           </div>
-
-          <div className="w-1/2 xl:w-1/3">
+          
             <ul className="hidden xl:flex xl:justify-center">
-              {navigation.map((item) => (
-                <li className="mr-12" key={item.name}>
+              {navigation.map((item,key) => (
+                <li className="mr-12" key={key}>
                   <a
-                    key={item.name}
                     href={item.href}
                     className="font-medium text-coolGray-500 dark:text-white hover:text-yellow-500 dark:hover:text-coolGray-500"
                   >
@@ -39,7 +38,7 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
-          </div>
+          
           <div className="w-1/2 xl:w-1/3">
             <div className="items-center justify-end hidden xl:flex">
               <InvertedButton>Login</InvertedButton>

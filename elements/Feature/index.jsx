@@ -16,13 +16,12 @@ import {
 
 export default function index() {
   return (
-    <>
+    <div id='feature'>
       <SectionLine>Our Services and Features</SectionLine>
-
       <LeftSide image={posImage} content={posContent} />
       <RightSide image={storeImage} content={storeContent} />
       <LeftSide image={inventoryImage} content={inventoryContent} />
       <RightSide image={dMarketingImage} content={dMarketingContent} />
-    </>
+    </div>
   );
 }
