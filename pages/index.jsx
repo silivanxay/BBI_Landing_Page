@@ -14,7 +14,7 @@ export default function index() {
   return (
     <ThemeProvider>
       <Hero />
-      <Feature />
+      {/* <Feature />
       <Application />
       <FAQ />
       <Blog />
@@ -22,7 +22,7 @@ export default function index() {
       <CTA />
       <Quotes />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </ThemeProvider>
   );
 }
