@@ -37,6 +37,7 @@ export const ThemeProvider = ({ initialTheme, children }) => {
 
   React.useEffect(() => {
     rawSetTheme(theme);
+    getInitialTheme();
   }, [theme]);
 
   return (

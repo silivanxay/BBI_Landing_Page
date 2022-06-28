@@ -15,7 +15,7 @@ export const Footer = () => {
                 <img
                   className="h-8"
                   src="flex-ui-assets/logos/flex-ui-yellow-light.svg"
-                  alt
+                  alt="img"
                 />
               </a>
               <p className="text-base md:text-lg text-coolGray-500 font-medium lg:w-64">

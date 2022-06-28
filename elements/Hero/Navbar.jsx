@@ -27,10 +27,9 @@ export default function Navbar() {
           </div>
           
             <ul className="hidden xl:flex xl:justify-center">
-              {navigation.map((item) => (
-                <li className="mr-12" key={item.name}>
+              {navigation.map((item,key) => (
+                <li className="mr-12" key={key}>
                   <a
-                    key={item.name}
                     href={item.href}
                     className="font-medium text-coolGray-500 dark:text-white hover:text-yellow-500 dark:hover:text-coolGray-500"
                   >

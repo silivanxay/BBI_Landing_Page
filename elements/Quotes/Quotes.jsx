@@ -45,7 +45,7 @@ export const Quotes = () => {
             <div className="w-full lg:w-1/2 px-4">
               <span
                 className="inline-block py-px px-2 sm:ml-6 md:mb-16 text-xs leading-5 text-yellow-500 bg-yellow-100 font-medium uppercase rounded-9xl"
-                contentEditable="false"
+                
               >
                 Quotes
               </span>
@@ -53,12 +53,12 @@ export const Quotes = () => {
                 <img
                   className="absolute top-0 left-0"
                   src="flex-ui-assets/elements/testimonials/quote-top-yellow.svg"
-                  alt
+                  alt="img"
                 />
                 <img
                   className="absolute bottom-0 right-0"
                   src="flex-ui-assets/elements/testimonials/quote-down-yellow.svg"
-                  alt
+                  alt="img"
                 />
                 <div className="relative">
                   <h2 className="text-2xl md:text-4xl font-semibold tracking-tighter">

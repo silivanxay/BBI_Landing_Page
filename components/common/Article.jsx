@@ -13,8 +13,8 @@ export default function Article(props) {
       </h1>
       <ul>
         {content.context.map((item, index) => (
-          <li>
-            <span className="inline-flex" key={index}>
+          <li key={index}>
+            <span className="inline-flex" >
               {item.icon ? (
                 <img
                   src={item.icon}

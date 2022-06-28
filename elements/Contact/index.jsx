@@ -17,7 +17,7 @@ export const Contact = () => {
               Contact
             </span>
             <h3 className="mb-4 text-4xl md:text-5xl leading-tight text-darkCoolGray-900 font-bold tracking-tighter">
-              Let’s stay connected
+              Let`s stay connected
             </h3>
             <p className="text-lg md:text-xl text-coolGray-500 font-medium">
               It's never been easier to get in touch with Flex. Call us, use our
@@ -234,7 +234,7 @@ export const Contact = () => {
                   <img
                     className="h-16"
                     src="flex-ui-assets/logos/flex-circle-yellow.svg"
-                    alt
+                    alt="img"
                   />
                 </a>
                 <h3 className="mb-4 text-2xl md:text-3xl font-bold">
@@ -244,11 +244,11 @@ export const Contact = () => {
                   Start your journey with our product
                 </p>
               </div>
-              <form action>
+              <form >
                 <div className="mb-6">
                   <label
                     className="block mb-2 text-coolGray-800 font-medium"
-                    htmlFor
+                    htmlFor=""
                   >
                     Name*
                   </label>
@@ -261,7 +261,7 @@ export const Contact = () => {
                 <div className="mb-6">
                   <label
                     className="block mb-2 text-coolGray-800 font-medium"
-                    htmlFor
+                    htmlFor=""
                   >
                     Email*
                   </label>
@@ -274,7 +274,7 @@ export const Contact = () => {
                 <div className="mb-4">
                   <label
                     className="block mb-2 text-coolGray-800 font-medium"
-                    htmlFor
+                    htmlFor=""
                   >
                     Password*
                   </label>
@@ -294,7 +294,7 @@ export const Contact = () => {
                       <img
                         className="absolute top-1/2 transform -translate-y-1/2 left-0"
                         src="flex-ui-assets/elements/sign-up/checkbox-icon.svg"
-                        alt
+                        alt="img"
                       />
                       <span className="ml-7 text-xs text-coolGray-800 font-medium">
                         Remember me
@@ -323,7 +323,7 @@ export const Contact = () => {
                   <img
                     className="mr-2"
                     src="flex-ui-assets/elements/sign-up/google-icon-sign-up.svg"
-                    alt
+                    alt="img"
                   />
                   <span>Sign in with Google</span>
                 </a>
@@ -345,7 +345,7 @@ export const Contact = () => {
         <img
           className="md:absolute md:top-0 md:right-0 mx-auto md:h-full md:w-2/5 lg:w-1/2 md:object-cover"
           src="flex-ui-assets/images/sign-up/photo-sign-up-side.png"
-          alt
+          alt="img"
         />
       </section>
     </div>
