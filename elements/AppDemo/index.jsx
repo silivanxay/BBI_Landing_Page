@@ -3,7 +3,7 @@ import Video from '../../components/common/Video';
 
 export default function index() {
   return (
-    <section className="py-24 transition-all bg-image-light dark:bg-image-dark">
+    <section id='application' className="py-24 transition-all bg-image-light dark:bg-image-dark">
       <div className="container px-4 mx-auto">
         <div className="text-center">
           <span className="inline-block px-2 py-px mb-4 text-xs font-medium leading-5 text-white bg-yellow-500 rounded-full shadow-sm">
