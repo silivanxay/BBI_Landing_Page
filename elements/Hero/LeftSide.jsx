@@ -63,16 +63,18 @@ export default function LeftSide() {
         </div>
         <div className="w-full px-4 md:hidden">
           <div className="relative mx-auto max-w-max">
-            <img
-              className="absolute left-0 z-10 object-cover p-1 ml-11 top-1 h-52"
-              src="flex-ui-assets/images/uxui/bamboobi_uxui.webp"
-              alt="image"
-            />
-            <img
-              className="object-cover h-56 mx-auto"
-              src="flex-ui-assets/images/headers/mockup-light1.png"
-              alt="image"
-            />
+            <div className="absolute left-0 z-10 object-cover p-1 ml-11 top-1 h-52">
+              <img
+                src="flex-ui-assets/images/uxui/bamboobi_uxui.webp"
+                alt="image"
+              />
+            </div>
+            <div className="object-cover h-56 mx-auto">
+              <img
+                src="flex-ui-assets/images/headers/mockup-light1.webp"
+                alt="image"
+              />
+            </div>
           </div>
         </div>
       </div>

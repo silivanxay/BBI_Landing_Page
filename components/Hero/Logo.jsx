@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import IMG from "../../public/flex-ui-assets/logos/bamboobi.webp"
+import IMG from "../../public/flex-ui-assets/logos/bbi.png"
 
 export default function Logo(props) {
   return (
@@ -13,8 +13,8 @@ export default function Logo(props) {
           // src={logo.image}
           src={IMG}
           // scrset={("IMG", "70px", "40px")}
-          // width="70"
-          // height='40'
+          width="70"
+          height='40'
           alt="img"
         /> 
 
