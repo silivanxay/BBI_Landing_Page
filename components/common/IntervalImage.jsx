@@ -29,7 +29,7 @@ export default function IntervalImage(props) {
             index === currentImage ? "hidden rounded-md" : "rounded-md"
           } transition ease-in-out hover:scale-125 duration-700 cursor-pointer`}
           >
-            <Image src={item} alt={index} width="1000" height="800" />
+            <Image src={item} alt={index} width="1000" height="800"  />
           </div>
         ))
       ) : (

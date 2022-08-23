@@ -24,7 +24,7 @@ export default function index() {
     <>
       <ThemeProvider>
         <Hero />
-        {/* <Feature />
+        <Feature />
         <Application />
         <FAQ />
         <Blog />
@@ -32,7 +32,7 @@ export default function index() {
         <About />
         <Contact />
         <Footer />
-        <Back2TopButton /> */}
+        <Back2TopButton />
         {/* <Preloader /> */}
       </ThemeProvider>
     </>

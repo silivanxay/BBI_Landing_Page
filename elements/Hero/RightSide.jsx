@@ -33,7 +33,7 @@ import IMG3 from "../../public/flex-ui-assets/images/uxui/bamboobi_uxui.webp";
 export default function RightSide() {
   return (
     <div className="hidden md:absolute md:-right-80 md:top-1/2 md:transform md:-translate-y-1/2 md:translate-x-64 lg:translate-x-32 xl:-translate-x-7 md:mt-12 md:block">
-      {/* <div className="absolute w-1/3 transform -rotate-45 -translate-x-10 -translate-y-64 left-12 top-1/2">
+      <div className="absolute w-1/3 transform -rotate-45 -translate-x-10 -translate-y-64 left-12 top-1/2">
         <Image src={IMG1} alt="image" />
       </div>
       <div className="relative z-10">
@@ -41,7 +41,7 @@ export default function RightSide() {
       </div>
       <div className="absolute z-20 w-8/12 transform translate-x-4 top-6 left-36">
         <Image src={IMG3} alt="image" />
-      </div> */}
+      </div>
     </div>
   );
 }
