@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import Logo from "../../components/Hero/Logo";
+import Image from "next/image";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -115,6 +116,7 @@ export const JoinUs = () => {
               </div>
               <div className="mb-2">
                 <label
+                  aria-label="Left align"
                   className={`${
                     validate === "ຊື່ວ່າງເປົ່າ !" ? "text-red-500" : ""
                   } mb-2 font-medium`}
@@ -132,7 +134,9 @@ export const JoinUs = () => {
                 />
               </div>
               <div className="mb-2">
-                <label className={`mb-2 font-medium`}>First Name</label>
+                <label aria-label="Left align" className={`mb-2 font-medium`}>
+                  First Name
+                </label>
                 <input
                   className={`border outline-none rounded-md w-full p-2`}
                   onChange={(e) => setFirstname(e.target.value)}
@@ -141,7 +145,9 @@ export const JoinUs = () => {
                 />
               </div>
               <div className="mb-2">
-                <label className={`mb-2 font-medium`}>Last Name</label>
+                <label aria-label="Left align" className={`mb-2 font-medium`}>
+                  Last Name
+                </label>
                 <input
                   className={`border outline-none rounded-md w-full p-2`}
                   onChange={(e) => setLastname(e.target.value)}
@@ -151,6 +157,7 @@ export const JoinUs = () => {
               </div>
               <div className="mb-2">
                 <label
+                  aria-label="Left align"
                   className={`block ${
                     validate === "ອີ່ເມລວ່າງເປົ່າ !" ? "text-red-500" : ""
                   } mb-2 font-medium`}
@@ -170,6 +177,7 @@ export const JoinUs = () => {
               </div>
               <div className="mb-2">
                 <label
+                  aria-label="Left align"
                   className={`block ${
                     validate === "ລະຫັດວ່າງເປົ່າ !" ? "text-red-500" : ""
                   } mb-2 font-medium`}
@@ -189,6 +197,7 @@ export const JoinUs = () => {
               </div>
               <div className="mb-2">
                 <label
+                  aria-label="Left align"
                   className={`block ${
                     validate === "ລະຫັດຢືນຢັນວ່າງເປົ່າ !" ? "text-red-500" : ""
                   } mb-2 font-medium`}
@@ -262,6 +271,7 @@ export const JoinUs = () => {
           className="md:absolute md:top-0 md:right-0 mx-auto md:h-full md:w-2/5 lg:w-1/2 md:object-fill"
           src="flex-ui-assets/logos/aboutus-100.webp"
           alt="img"
+          layout="fixed"
         />
       </section>
     </div>

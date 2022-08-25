@@ -6,6 +6,7 @@ import Logo from "../../components/Hero/Logo";
 import Button from "../../components/common/Button";
 import Toggle from "../../components/Darkmode/ThemeToggle";
 import Link from "next/link";
+
 // const navigation = [
 //   { name: "ຫນ້າຫລັກ", href: "/" },
 //   { name: "ຄຸນ​​ຫລັກສະນະ", href: "/#feature" },
@@ -93,6 +94,17 @@ export default function Navbar() {
                   } dark:text-white px-1 py-1 hover:bg-yellow-500 hover:rounded-lg dark:hover:text-coolGray-500`}
                 >
                   ລາຄາ
+                </a>
+              </Link>
+            </li>
+            <li className="mr-7" onClick={() => setActive(7)}>
+              <Link href="/#product">
+                <a
+                  className={`font-medium ${
+                    active === 7 ? "bg-yellow-500 rounded-lg" : ""
+                  } dark:text-white px-1 py-1 hover:bg-yellow-500 hover:rounded-lg dark:hover:text-coolGray-500`}
+                >
+                  ສິນຄ້າ
                 </a>
               </Link>
             </li>
@@ -190,7 +202,7 @@ export default function Navbar() {
                     >
                       ລາຄາ
                     </a>
-                  </Link>
+                  </Link>{" "}
                 </li>
                 <li className="mr-12" onClick={() => setActive(5)}>
                   <Link href="/#about">

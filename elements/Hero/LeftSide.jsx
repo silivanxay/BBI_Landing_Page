@@ -1,4 +1,5 @@
 import React from "react";
+import IMG from "../../public/flex-ui-assets/images/uxui/mock.webp";
 import Article from "../../components/common/Article";
 import { heroContent } from "../../util/data";
 import Image from "next/image";
@@ -33,6 +34,7 @@ export default function LeftSide() {
                 alt="image"
                 width={50}
                 height={50}
+                layout="fixed"
               />
             </div>
             <div className="w-full px-3 mb-6 bg-white md:w-auto lg:mb-0 h-14">
@@ -41,6 +43,7 @@ export default function LeftSide() {
                 alt="image"
                 width={50}
                 height={50}
+                layout="fixed"
               />
             </div>
             <div className="w-full px-3 mb-6 bg-white md:w-auto lg:mb-0 h-14">
@@ -49,6 +52,7 @@ export default function LeftSide() {
                 alt="image"
                 width={50}
                 height={50}
+                layout="fixed"
               />
             </div>
             <div className="w-full px-3 bg-white md:w-auto h-14">
@@ -57,22 +61,25 @@ export default function LeftSide() {
                 alt="image"
                 width={50}
                 height={50}
+                layout="fixed"
               />
             </div>
           </div>
         </div>
         <div className="w-full px-4 md:hidden">
           <div className="relative mx-auto max-w-max">
-            <img
-              className="absolute left-0 z-10 object-cover p-1 ml-11 top-1 h-52"
-              src="flex-ui-assets/images/uxui/bamboobi_uxui.webp"
-              alt="image"
-            />
-            <img
-              className="object-cover h-56 mx-auto"
-              src="flex-ui-assets/images/headers/mockup-light1.png"
-              alt="image"
-            />
+            {/* <div className="absolute left-0 z-10 object-cover p-1 ml-11 top-1 h-52">
+              <Image src={IMG} alt="image" layout="fixed" />
+            </div> */}
+            <div className="object-cover h-56 mx-auto">
+              <Image
+                src={IMG}
+                alt="image"
+                width={550}
+                height={350}
+                layout="fixed"
+              />
+            </div>
           </div>
         </div>
       </div>

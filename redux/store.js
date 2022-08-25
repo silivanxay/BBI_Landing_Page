@@ -9,3 +9,4 @@ const composeEnhancers = typeof window != 'undefined' && window.__REDUX_DEVTOOLS
 const makeStore = () => createStore(rootReducer, composeEnhancers(applyMiddleware(...middleware)))
 
 export const wrapper = createWrapper(makeStore)
+

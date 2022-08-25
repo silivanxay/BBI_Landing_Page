@@ -9,6 +9,7 @@ import { Contact } from "../elements/Contact";
 import { Footer } from "../elements/Footer/Footer";
 import { Price } from "../elements/Price/Price";
 import { About } from "../elements/About/About";
+
 import Back2TopButton from "../components/common/Back2TopButton";
 import "aos/dist/aos.css";
 import Aos from "aos";
@@ -24,7 +25,7 @@ export default function index() {
     <>
       <ThemeProvider>
         <Hero />
-        {/* <Feature />
+        <Feature />
         <Application />
         <FAQ />
         <Blog />
@@ -32,7 +33,7 @@ export default function index() {
         <About />
         <Contact />
         <Footer />
-        <Back2TopButton /> */}
+        <Back2TopButton />
         {/* <Preloader /> */}
       </ThemeProvider>
     </>
