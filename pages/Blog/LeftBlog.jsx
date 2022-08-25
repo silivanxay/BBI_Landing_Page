@@ -5,7 +5,7 @@ const LeftBlog = (props) => {
       <section className="py-10 md:py-10">
         <div className="container px-4 mx-auto">
           <div className="md:max-w-2xl mx-auto mb-12 text-center">
-            <div className="mb-4 text-2xl md:text-3xl leading-tight text-coolGray-900 dark:text-white font-bold tracking-tighter">
+            <div className="mb-4 text-2xl.... text-coolGray-900 dark:text-white font-bold tracking-tighter">
               {props.title}
             </div>
           </div>

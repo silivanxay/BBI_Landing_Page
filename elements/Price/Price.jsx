@@ -117,7 +117,13 @@ export const Price = () => {
                         {e.month}
                       </span>
                     </div>
-                    <p className={`mb-6 ${e.popular === "ໃນໄວໆນີ້"?"text-blue-500":"text-green-700"}  font-normal text-xl`}>
+                    <p
+                      className={`mb-6 ${
+                        e.popular === "ໃນໄວໆນີ້"
+                          ? "text-blue-500"
+                          : "text-green-700"
+                      }  font-normal text-xl`}
+                    >
                       {e.popular}
                     </p>
                     <button
@@ -139,7 +145,7 @@ export const Price = () => {
                       onClick={() => {}}
                       className={`${
                         e.popular === "ໃນໄວໆນີ້" ? "cursor-not-allowed" : ""
-                      } inline-block py-3 px-7 w-full text-coolGray-500 font-medium text-center bg-white 
+                      } inline-block py-3 px-7 w-full text-coolGray-500 font-medium text-center bg-white
                     ${
                       e.popular === "ໃນໄວໆນີ້"
                         ? ""
@@ -156,7 +162,7 @@ export const Price = () => {
                         key={key}
                         className="flex items-center mb-3 text-coolGray-500 font-medium"
                       >
-                        <img className="mr-3" src={val.src} alt="image"/>
+                        <img className="mr-3" src={val.src} alt="image" />
                         <span>{val.des}</span>
                       </li>
                     ))}
