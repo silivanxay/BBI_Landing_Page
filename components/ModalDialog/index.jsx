@@ -9,6 +9,7 @@ const ModalDialog = (props) => {
             ຂໍ້ຄວາມແຈ້ງເຕືອນ
           </div>
           <button
+            aria-label="request"
             type="button"
             className="absolute top-3 right-2.5 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-2.5 ml-auto inline-flex items-center"
             onClick={props.onClick}

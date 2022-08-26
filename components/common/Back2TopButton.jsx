@@ -19,6 +19,7 @@ export default function Back2TopButton() {
   });
   return (
     <button
+      aria-label="humburger"
       onClick={backToTop}
       type="button"
       data-mdb-ripple="true"

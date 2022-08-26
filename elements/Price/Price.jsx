@@ -1,5 +1,6 @@
 import React from "react";
 import { CardPrice } from "./CardPrice";
+// import Image from "next/image";
 export const Price = () => {
   const Prices = [
     {

@@ -2,6 +2,7 @@ import React from "react";
 import Article from "../../components/common/Article";
 import Button from "../../components/common/Button";
 import IntervalImage from "../../components/common/IntervalImage";
+import Image from "next/image";
 
 export default function LeftSide(props) {
   const { content, image } = props;
@@ -14,20 +15,28 @@ export default function LeftSide(props) {
         >
           <div className="w-full px-4 mb-16 md:w-1/2 md:mb-0">
             <Article content={content} />
-            <Button> ເລີ່ມຕົ້ນໃຊ້ງານ </Button>
+            <Button aria-label="start"> ເລີ່ມຕົ້ນໃຊ້ງານ </Button>
           </div>
           <div className="w-full px-4 md:w-1/2">
             <div className="relative overflow-hidden transition-all mx-auto md:mr-0 max-w-max">
-              <img
-                className="absolute z-10 w-4/12 text-yellow-400 opacity-80 -left-28 -top-24"
-                src="flex-ui-assets/elements/blob.svg"
-                alt="image"
-              />
-              <img
-                className="absolute z-10 w-4/12 text-blue-500 -right-7 -bottom-8"
-                src="flex-ui-assets/elements/cirlcle-pattern.svg"
-                alt="image"
-              />
+              <div className="absolute z-10 w-4/12 text-yellow-400 opacity-80 -left-28 -top-24">
+                <Image
+                  src="flex-ui-assets/elements/blob.svg"
+                  alt="image"
+                  layout="responsive"
+                  width="500"
+                  height="500"
+                />
+              </div>
+              <div className="absolute z-10 w-4/12 text-blue-500 -right-7 -bottom-8">
+                <Image
+                  src="flex-ui-assets/elements/cirlcle-pattern.svg"
+                  alt="image"
+                  layout="responsive"
+                  width="500"
+                  height="300"
+                />
+              </div>
               <IntervalImage arrImage={image} />
             </div>
           </div>
