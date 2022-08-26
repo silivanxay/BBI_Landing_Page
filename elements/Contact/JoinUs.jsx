@@ -267,7 +267,7 @@ export const JoinUs = () => {
             </div>
           </div>
         </div>
-        <div className="md:absolute md:top-0 md:right-0 mx-auto md:h-full md:w-2/5 lg:w-1/2 md:object-fill">
+        {/* <div className="md:absolute md:top-0 md:right-0 mx-auto md:h-full md:w-2/5 lg:w-1/2 md:object-fill">
           <Image
             src="flex-ui-assets/logos/aboutus-100.webp"
             alt="img"
@@ -278,7 +278,19 @@ export const JoinUs = () => {
             width="500"
             height="600"
           />
-        </div>
+        </div> */}
+
+        <Image
+          className="md:absolute md:top-0 md:right-0 mx-auto md:h-full md:w-2/5 lg:w-1/2 md:object-fill"
+          src="flex-ui-assets/logos/aboutus-100.webp"
+          alt="img"
+          // layout="intrinsic"
+          // layout="fill"
+          // layout="responsive"
+          layout="fixed"
+          width="500"
+          height="600"
+        />
       </section>
     </div>
   );
