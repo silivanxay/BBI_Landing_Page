@@ -248,7 +248,7 @@ export const JoinUs = () => {
                 ) : null}
                 {loading ? "" : "ຕົກລົງ"}
               </button>
-              {/* <button className="inline-flex items-center justify-center py-3 px-7 mb-6 w-full text-base text-coolGray-500 font-medium text-center leading-6 bg-white border border-coolGray-100 hover:border-coolGray-200 rounded-md shadow-sm">
+              {/* <button className="inline-flex items-center justify-center py-3 px-7 mb-6 w-full text-base text-coolGray-500 font-medium text-center leading-6 bg-white border border-coolGray-100 hover:border-coolGra""rounded-md shadow-sm">
                 <img
                   className="mr-2"
                   src="flex-ui-assets/elements/sign-up/google-icon-sign-up.svg"
@@ -267,12 +267,18 @@ export const JoinUs = () => {
             </div>
           </div>
         </div>
-        <img
-          className="md:absolute md:top-0 md:right-0 mx-auto md:h-full md:w-2/5 lg:w-1/2 md:object-fill"
-          src="flex-ui-assets/logos/aboutus-100.webp"
-          alt="img"
-          layout="fixed"
-        />
+        <div className="md:absolute md:top-0 md:right-0 mx-auto md:h-full md:w-2/5 lg:w-1/2 md:object-fill">
+          <Image
+            src="flex-ui-assets/logos/aboutus-100.webp"
+            alt="img"
+            // layout="intrinsic"
+            // layout="fill"
+            // layout="responsive"
+            layout="fixed"
+            width="500"
+            height="600"
+          />
+        </div>
       </section>
     </div>
   );

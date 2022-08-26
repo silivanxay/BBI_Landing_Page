@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import IMG from "../../public/flex-ui-assets/logos/bbi.png";
+import IMG from "../../public/flex-ui-assets/logos/bamboobi.webp";
 
 export default function Logo(props) {
   return (

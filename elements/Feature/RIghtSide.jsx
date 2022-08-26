@@ -2,6 +2,7 @@ import React from "react";
 import Article from "../../components/common/Article";
 import Button from "../../components/common/Button";
 import IntervalImage from "../../components/common/IntervalImage";
+import Image from "next/image";
 
 export default function RightSide(props) {
   const { content, image } = props;
@@ -14,22 +15,30 @@ export default function RightSide(props) {
         >
           <div className="w-full px-4 mb-16 md:w-1/2 md:mb-0">
             <div className="relative overflow-hidden transition-all mx-auto md:mr-0 max-w-max">
-              <img
-                className="absolute z-10 w-2/12 text-yellow-400 -left-16 -bottom-16"
-                src="flex-ui-assets/elements/circle2-yellow.svg"
-                alt="image"
-              />
-              <img
-                className="absolute z-10 w-2/12 text-blue-500 -rotate-90 -right-16 -top-16"
-                src="flex-ui-assets/elements/wave2-yellow.svg"
-                alt="image"
-              />
+              <div className="absolute z-10 w-2/12 text-yellow-400 -left-16 -bottom-16">
+                <Image
+                  src="flex-ui-assets/elements/circle2-yellow.svg"
+                  alt="image"
+                  width="1"
+                  height="1"
+                  layout="fixed"
+                />
+              </div>
+              <div className="absolute z-10 w-2/12 text-blue-500 -rotate-90 -right-16 -top-16">
+                <Image
+                  src="flex-ui-assets/elements/wave2-yellow.svg"
+                  alt="image"
+                  width="1"
+                  height="1"
+                  layout="fixed"
+                />
+              </div>
               <IntervalImage arrImage={image} />
             </div>
           </div>
           <div className="w-full px-10 md:w-1/2">
             <Article content={content} />
-            <Button>ເລີ່ມຕົ້ນໃຊ້ງານ</Button>
+            <Button aria-label="start">ເລີ່ມຕົ້ນໃຊ້ງານ</Button>
           </div>
         </div>
       </div>

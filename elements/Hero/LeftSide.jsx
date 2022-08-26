@@ -11,7 +11,10 @@ export default function LeftSide() {
           <Article content={heroContent} />
           <div className="flex flex-wrap mb-8 md:mb-16">
             <div className=" w-full py-1 md:w-auto md:py-0 md:mr-4">
-              <button className=" inline-block w-full py-5 font-medium leading-4 text-center bg-yellow-500 rounded-md shadow-sm px-7 md:text-lg text-gray-700 hover:bg-yellow-600 focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50">
+              <button
+                aria-label="request"
+                className=" inline-block w-full py-5 font-medium leading-4 text-center bg-yellow-500 rounded-md shadow-sm px-7 md:text-lg text-gray-700 hover:bg-yellow-600 focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50"
+              >
                 ຮ້ອງຂໍການສາທິດ
               </button>
             </div>
