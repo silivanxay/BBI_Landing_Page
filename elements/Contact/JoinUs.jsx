@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import Logo from "../../components/Hero/Logo";
-import Image from "next/image";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -280,16 +279,10 @@ export const JoinUs = () => {
           />
         </div> */}
 
-        <Image
+        <img
           className="md:absolute md:top-0 md:right-0 mx-auto md:h-full md:w-2/5 lg:w-1/2 md:object-fill"
           src="flex-ui-assets/logos/aboutus-100.webp"
           alt="img"
-          // layout="intrinsic"
-          // layout="fill"
-          // layout="responsive"
-          layout="fixed"
-          width="500"
-          height="600"
         />
       </section>
     </div>

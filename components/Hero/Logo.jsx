@@ -16,6 +16,7 @@ export default function Logo(props) {
           height="40"
           alt="img"
           layout="fixed"
+          priority="true"
         />
       </a>
     </Link>

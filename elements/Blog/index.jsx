@@ -10,10 +10,10 @@ const index = (props) => {
   const data = [
     {
       img: "flex-ui-assets/images/blog/BOPIS.webp",
-      id:"1",
-      build_img:"flex-ui-assets/images/blog/logoblog.png",
-      name:"ດຣ ບຸ້ຍ ສິລິວັນໄຊ",
-      degree:"CEO | Advance Programer",
+      id: "1",
+      build_img: "flex-ui-assets/images/blog/logoblog.png",
+      name: "ດຣ ບຸ້ຍ ສິລິວັນໄຊ",
+      degree: "CEO | Advance Programer",
       date: "Bui PSV • 16 May 2022",
       detail:
         "ທຸລະກິດຂະຫນາດນ້ອຍແມ່ນພຽງແຕ່ດີເທົ່າກັບເຄື່ອງມືຂອງມັນແລະມັນເປັນຄວາມຈິງທັງຫມົດ.",
@@ -87,10 +87,10 @@ const index = (props) => {
     },
     {
       img: "flex-ui-assets/logos/shoe_choose.webp",
-      id:"2",
-      name:"ດຣ ບຸ້ຍ ສິລິວັນໄຊ",
-      degree:"CEO | Advance Programer",
-      build_img:"flex-ui-assets/images/blog/logoblog.png",
+      id: "2",
+      name: "ດຣ ບຸ້ຍ ສິລິວັນໄຊ",
+      degree: "CEO | Advance Programer",
+      build_img: "flex-ui-assets/images/blog/logoblog.png",
       date: "Bui PSV • 29 Jun 2022",
       detail: `5 ເທັກນິກໃນການເລືອກ " ເກີບຜ້າໃບ " ຄູ່ໃຈຂອງທ່ານ`,
       des: `ສຳລັບໃຜທີ່ກຳລັງຈະເລືອກຊື້ເກີບຈັກຄູ່ໜື່ງໄວ້ອອກກຳລັງກາຍ ຫືຼວ່າ ໃສ່ເດີນທາງໄປທ່ອງທ່ຽວ ມື້ນີ້ທາງຮ້ານ Bamboo BI ຂໍນຳສະເໜີ 5ເທັກນິກ ເລືອກ "ເກີບຜ້າໃບ" ຄູ່ໃຈ ໃຫ້ທ່ານໄດ້ລອງໃຊ້ໃນການເລືອກເກີບຜ້າໃບໃຫ້ເທດເໝາະກັບໂຕທ່ານເອງ.`,
@@ -128,10 +128,10 @@ const index = (props) => {
     },
     {
       img: "flex-ui-assets/images/blog/blog3.webp",
-      id:"3",
-      name:"ທ້າວ ນ້ອຍ ວິໄລຈິດ",
-      degree:"Programming | Growth Hacking | Writing | Side Hustle",
-      build_img:"flex-ui-assets/images/blog/logoblog1.jpeg",
+      id: "3",
+      name: "ທ້າວ ນ້ອຍ ວິໄລຈິດ",
+      degree: "Programming | Growth Hacking | Writing | Side Hustle",
+      build_img: "flex-ui-assets/images/blog/logoblog1.jpeg",
       date: "Bui PSV • 2 July 2022",
       detail: "Demo ວິດີໂອພິມບິນສິນຄ້າໂດຍຜ່ານເວັບໄຊ Bamboo BI",
       des: "ການສາທິດ Preview ວິດີໂອສາທິດລະບົບເລືອກຊື້ ແລະ ພີມບີນຜ່ານເວັບໄຊ",
@@ -179,12 +179,12 @@ const index = (props) => {
             <div className="w-full px-4 mb-8 md:w-1/2 lg:w-1/3" key={key}>
               <Link href="/Blog">
                 <a className="relative transition-all block mb-6 overflow-hidden rounded-md">
-                  <Image
+                  <img
                     className="w-full transition ease-in-out hover:scale-125 duration-700"
                     src={e.img}
                     alt="image"
-                    height={400}
-                    width={500}
+                    // height={400}
+                    // width={500}
                     onClick={() =>
                       props.actBlogdetail({
                         blogdetails: {
@@ -193,10 +193,10 @@ const index = (props) => {
                           des: e.des,
                           detail: e.detail,
                           list: e.list,
-                          b_img:e.build_img,
-                          id:e.id,
-                          name:e.name,
-                          degree:e.degree,
+                          b_img: e.build_img,
+                          id: e.id,
+                          name: e.name,
+                          degree: e.degree,
                           data: data,
                         },
                       })

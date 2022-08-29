@@ -13,8 +13,8 @@ import { About } from "../elements/About/About";
 import Back2TopButton from "../components/common/Back2TopButton";
 import "aos/dist/aos.css";
 import Aos from "aos";
-// import "react-toastify/dist/ReactToastify.css";
-// import Preloader from "../components/common/Preloader/Preloader";
+import "react-toastify/dist/ReactToastify.css";
+import Preloader from "../components/common/Preloader/Preloader";
 export default function index() {
   useEffect(() => {
     Aos.init({
@@ -25,7 +25,7 @@ export default function index() {
     <>
       <ThemeProvider>
         <Hero />
-        {/* <Feature />
+        <Feature />
         <Application />
         <FAQ />
         <Blog />
@@ -33,8 +33,8 @@ export default function index() {
         <About />
         <Contact />
         <Footer />
-        <Back2TopButton /> */}
-        {/* <Preloader /> */}
+        <Back2TopButton />
+        <Preloader />
       </ThemeProvider>
     </>
   );
