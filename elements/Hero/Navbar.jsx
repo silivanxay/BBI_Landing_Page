@@ -97,17 +97,6 @@ export default function Navbar() {
                 </a>
               </Link>
             </li>
-            <li className="mr-7" onClick={() => setActive(7)}>
-              <Link href="/#product">
-                <a
-                  className={`font-medium ${
-                    active === 7 ? "bg-yellow-500 rounded-lg" : ""
-                  } dark:text-white px-1 py-1 hover:bg-yellow-500 hover:rounded-lg dark:hover:text-coolGray-500`}
-                >
-                  ສິນຄ້າ
-                </a>
-              </Link>
-            </li>
             <li className="mr-7" onClick={() => setActive(5)}>
               <Link href="/#about">
                 <a
