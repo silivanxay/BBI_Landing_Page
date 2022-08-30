@@ -1,6 +1,5 @@
 import React from "react";
 import GoogleMaps from "../../components/GoogleMap/GoogleMaps";
-import { JoinUs } from "./JoinUs";
 export const Contact = () => {
   return (
     <div>
@@ -16,11 +15,6 @@ export const Contact = () => {
             <h3 className="mb-4 text-4xl md:text-5xl leading-tight text-coolGray-900 dark:text-white font-bold tracking-tighter">
               ສາມາດຕິດຕໍ່ກັບພວກເຮົາໄດ້ທີ່
             </h3>
-            <p className="text-lg md:text-xl text-coolGray-900 dark:text-white font-medium">
-              It's never been easier to get in touch with Flex. Call us, use our
-              live chat widget or email and we'll get back to you as soon as
-              possible!
-            </p>
           </div>
           <div data-aos="fade-up" className="flex flex-wrap -mx-4 pb-16">
             <div className="w-full md:w-1/3 px-4 mb-10 md:mb-0">
@@ -41,7 +35,7 @@ export const Contact = () => {
                   </svg>
                 </div>
                 <h3 className="mb-2 text-2xl md:text-3xl leading-9 text-coolGray-900 dark:text-white font-bold">
-                  Email
+                  ເມວ
                 </h3>
                 <a
                   className="text-xl text-coolGray-900 dark:text-white hover:text-coolGray-600 font-medium"
@@ -69,10 +63,10 @@ export const Contact = () => {
                   </svg>
                 </div>
                 <h3 className="mb-2 text-2xl md:text-3xl leading-9 text-coolGray-900 dark:text-white font-bold">
-                  Phone
+                  ໂທ ຫຼື Whatsapp
                 </h3>
                 <p className="text-xl text-coolGray-900 dark:text-white font-medium">
-                  020 5639 5659
+                  +856 20 5639 5659
                 </p>
               </div>
             </div>
@@ -98,7 +92,7 @@ export const Contact = () => {
                 </h3>
                 <a
                   className="inline-block mr-8 text-yellow-500 dark:text-white hover:text-yellow-600"
-                  href="/"
+                  href="https://www.facebook.com/bamboobi.la"
                 >
                   <svg
                     width={10}
@@ -117,26 +111,7 @@ export const Contact = () => {
                 </a>
                 <a
                   className="inline-block mr-8 text-yellow-500 dark:text-white hover:text-yellow-600"
-                  href="/"
-                >
-                  <svg
-                    width={19}
-                    height={16}
-                    viewBox="0 0 19 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M18.8181 2.14598C18.1356 2.44844 17.4032 2.65356 16.6336 2.74513C17.4194 2.27462 18.0208 1.52831 18.3059 0.641769C17.5689 1.0775 16.7553 1.39389 15.8885 1.56541C15.1943 0.82489 14.2069 0.363647 13.1118 0.363647C11.0108 0.363647 9.30722 2.06719 9.30722 4.16707C9.30722 4.46489 9.34083 4.75577 9.40574 5.03392C6.24434 4.87513 3.44104 3.3605 1.56483 1.05895C1.23686 1.61986 1.05028 2.27344 1.05028 2.9711C1.05028 4.29107 1.72243 5.45574 2.74225 6.13713C2.11877 6.11628 1.53237 5.94477 1.01901 5.65968V5.70719C1.01901 7.5498 2.33086 9.08762 4.07031 9.43762C3.75161 9.52337 3.41555 9.57089 3.06789 9.57089C2.82222 9.57089 2.58464 9.54656 2.35171 9.50019C2.8361 11.0125 4.24068 12.1123 5.90483 12.1424C4.6034 13.1623 2.96243 13.7683 1.1801 13.7683C0.873008 13.7683 0.570523 13.7498 0.272705 13.7162C1.95655 14.7974 3.95561 15.4279 6.10416 15.4279C13.1026 15.4279 16.928 9.63116 16.928 4.60398L16.9153 4.11147C17.6627 3.57834 18.3094 2.90853 18.8181 2.14598Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </a>
-                <a
-                  className="inline-block mr-8 text-yellow-500 dark:text-white hover:text-yellow-600"
-                  href="/"
+                  href="https://www.instagram.com/bamboobi.la"
                 >
                   <svg
                     width={20}
@@ -171,7 +146,7 @@ export const Contact = () => {
                 </a>
                 <a
                   className="inline-block text-yellow-500 dark:text-white hover:text-yellow-600"
-                  href="/"
+                  href="https://www.tiktok.com/@bamboobi.la"
                 >
                   <svg
                     width={18}
@@ -180,10 +155,8 @@ export const Contact = () => {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      d="M16.2 0H1.8C0.81 0 0 0.81 0 1.8V16.2C0 17.19 0.81 18 1.8 18H16.2C17.19 18 18 17.19 18 16.2V1.8C18 0.81 17.19 0 16.2 0ZM5.4 15.3H2.7V7.2H5.4V15.3ZM4.05 5.67C3.15 5.67 2.43 4.95 2.43 4.05C2.43 3.15 3.15 2.43 4.05 2.43C4.95 2.43 5.67 3.15 5.67 4.05C5.67 4.95 4.95 5.67 4.05 5.67ZM15.3 15.3H12.6V10.53C12.6 9.81004 11.97 9.18 11.25 9.18C10.53 9.18 9.9 9.81004 9.9 10.53V15.3H7.2V7.2H9.9V8.28C10.35 7.56 11.34 7.02 12.15 7.02C13.86 7.02 15.3 8.46 15.3 10.17V15.3Z"
-                      fill="currentColor"
-                    />
+                    <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"
+                    fill="currentColor"/> 
                   </svg>
                 </a>
               </div>
@@ -195,7 +168,6 @@ export const Contact = () => {
         </div>
       </section>
       <br />
-      <JoinUs />
     </div>
   );
 };

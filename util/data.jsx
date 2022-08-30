@@ -78,7 +78,7 @@ export const inventoryContent = {
   context: [
     {
       icon: "/flex-ui-assets/icons/Purchase Order and Stock Management@2x-8.png",
-      text: "ການ​ສັ່ງ​ຊື້ ​ແລະ​ ການ​ຄຸ້ມ​ຄອງ​ຫຼັກ​ຊັບ​",
+      text: "ການ​ສັ່ງ​ຊື້ ​ແລະ​ ການ​ຄຸ້ມ​ຄອງນຳເຂົ້າສິນຄ້າ​",
     },
     {
       icon: "/flex-ui-assets/icons/Sales Management@2x-8.png",
@@ -90,7 +90,7 @@ export const inventoryContent = {
     },
     {
       icon: "/flex-ui-assets/icons/Sales Reporting _ Analytics@2x-8.png",
-      text: "​ລາຍ​ງານ​ແລະ​ການ​ວິ​ເຄາະ​ຂໍ້​ມູນ​",
+      text: "​ລາຍ​ງານ ​ແລະ ​ການ​ວິ​ເຄາະ​ຂໍ້​ມູນ​",
     },
     {
       icon: "/flex-ui-assets/icons/Inventory Forecasting@2x-8.png",

@@ -4,7 +4,7 @@ import { CardPrice } from "./CardPrice";
 export const Price = () => {
   const Prices = [
     {
-      size: "small",
+      size: "Trial",
       price: "0",
       month: "/ ເດືອນ",
       pop: "FREE",
@@ -25,8 +25,8 @@ export const Price = () => {
       ],
     },
     {
-      size: "medium",
-      price: "300,000",
+      size: "Regular",
+      price: "390,000",
       month: "/ ເດືອນ",
       pop: "",
       popular: "ໃນໄວໆນີ້",
@@ -42,8 +42,8 @@ export const Price = () => {
       ],
     },
     {
-      size: "large",
-      price: "500,000",
+      size: "Premium",
+      price: "690,000",
       month: "/ ເດືອນ",
       pop: "",
       popular: "ໃນໄວໆນີ້",
