@@ -15,7 +15,7 @@ export default function LeftSide() {
                 aria-label="request"
                 className=" inline-block w-full py-5 font-medium leading-4 text-center bg-yellow-500 rounded-md shadow-sm px-7 md:text-lg text-gray-700 hover:bg-yellow-600 focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50"
               >
-                ຮ້ອງຂໍການສາທິດ
+                ຂໍທົດລອງໃຊ້ງານ
               </button>
             </div>
             <div className="w-full py-1 md:w-auto md:py-0">
@@ -28,7 +28,7 @@ export default function LeftSide() {
             </div>
           </div>
           <p className="mb-6 text-sm font-medium text-center md:mb-4 text-coolGray-700 md:text-left">
-            ຂັບເຄື່ອນໂດຍ stacks ເຕັກໂນໂລຊີທີ່ທັນສະໄຫມ
+            ຂັບເຄື່ອນໂດຍເຕັກໂນໂລຊີ Stacks ທີ່ທັນສະໄຫມ
           </p>
           <div className="flex -mx-1">
             <div className="w-full px-3 mb-6 bg-white h-14 md:w-auto lg:mb-0">

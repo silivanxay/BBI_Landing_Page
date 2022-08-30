@@ -20,18 +20,16 @@ export default function index() {
             data-aos="fade-up"
             className="max-w-5xl mx-auto mb-10 text-3xl font-bold leading-tight tracking-tighter md:text-4xl text-coolGray-900 dark:text-white"
           >
-            ການຂາຍທີ່ຍິ່ງໃຫຍ່ເລີ່ມຕົ້ນດ້ວຍຮ້ານຄ້າອອນໄລນ໌ຂອງທ່ານ
+            ການຂາຍທີ່ຍິ່ງໃຫຍ່ເລີ່ມຕົ້ນດ້ວຍຮ້ານຄ້າອອນລາຍຂອງທ່ານ
           </div>
           <div data-aos="fade-up" className="relative mx-auto max-w-max">
             <img
               className="hidden md:block absolute w-5/12 transform -translate-y-1/2 top-1/2"
               src="flex-ui-assets/elements/cirlcle-pattern.svg"
-              // src={svg}
               alt="image"
             />
             <img
               className="hidden md:block absolute w-5/12 transform -translate-y-1/2 -right-6 lg:-right-16 top-1/2 "
-              // src="flex-ui-assets/elements/blob.svg"
               src="flex-ui-assets/elements/cirlcle-pattern.svg"
               alt="image"
             />

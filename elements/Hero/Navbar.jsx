@@ -7,15 +7,6 @@ import Button from "../../components/common/Button";
 import Toggle from "../../components/Darkmode/ThemeToggle";
 import Link from "next/link";
 
-// const navigation = [
-//   { name: "ຫນ້າຫລັກ", href: "/" },
-//   { name: "ຄຸນ​​ຫລັກສະນະ", href: "/#feature" },
-//   { name: "ຄຳຖາມທີ່ພົບຫລາຍ", href: "/#faq" },
-//   { name: "ບລັອກ", href: "/#blog" },
-//   { name: "ລາຄາ", href: "/#prices" },
-//   { name: "ກ່ຽວກັບພວກເຮົາ", href: "/#about" },
-//   { name: "ຕິດຕໍ່ພວກເຮົາ", href: "/#contact" },
-// ];
 export default function Navbar() {
   const [scrollY, setScrollY] = useState(0);
   const [openNav, setOpenNav] = useState(false);
@@ -35,7 +26,7 @@ export default function Navbar() {
   return (
     <div
       className={`sticky top-0 z-50 transition-all ${
-        scrollY > 10 ? "bg-darkCoolGray-100" : "bg-white"
+        scrollY > 10 ? "bg-yellow-400" : "bg-white"
       } dark:bg-black`}
     >
       <nav id="navbar" className="flex justify-between p-2 px-4">
@@ -60,7 +51,7 @@ export default function Navbar() {
                     active === 1 ? "bg-yellow-500 rounded-lg" : ""
                   } dark:text-white px-1 py-1 hover:bg-yellow-500 hover:rounded-lg dark:hover:text-coolGray-500`}
                 >
-                  ຄຸນ​​ຫລັກສະນະ
+                  ຄຸນ​​ລັກສະນະ
                 </a>
               </Link>
             </li>
@@ -71,7 +62,7 @@ export default function Navbar() {
                     active === 2 ? "bg-yellow-500 rounded-lg" : ""
                   } dark:text-white px-1 py-1 hover:bg-yellow-500 hover:rounded-lg dark:hover:text-coolGray-500`}
                 >
-                  ຄຳຖາມທີ່ພົບຫລາຍ
+                  ຄຳຖາມຍອດຮິດ
                 </a>
               </Link>
             </li>
@@ -82,7 +73,7 @@ export default function Navbar() {
                     active === 3 ? "bg-yellow-500 rounded-lg" : ""
                   } dark:text-white px-1 py-1 hover:bg-yellow-500 hover:rounded-lg dark:hover:text-coolGray-500`}
                 >
-                  ບລັອກ
+                  ບົດຄວາມ
                 </a>
               </Link>
             </li>
@@ -156,7 +147,7 @@ export default function Navbar() {
                     ${active === 1 ? "bg-yellow-500 rounded-lg" : ""}
                      dark:text-white dark:hover:text-coolGray-500`}
                     >
-                      ຄຸນ​​ຫລັກສະນະ
+                      ຄຸນ​​ລັກສະນະ
                     </a>
                   </Link>
                 </li>
@@ -167,7 +158,7 @@ export default function Navbar() {
                     ${active === 2 ? "bg-yellow-500 rounded-lg" : ""}
                      dark:text-white dark:hover:text-coolGray-500`}
                     >
-                      ຄຳຖາມທີ່ພົບຫລາຍ
+                      ຄຳຖາມຍອດຮິດ
                     </a>
                   </Link>
                 </li>
@@ -178,7 +169,7 @@ export default function Navbar() {
                     ${active === 3 ? "bg-yellow-500 rounded-lg" : ""}
                      dark:text-white dark:hover:text-coolGray-500`}
                     >
-                      ບລັອກ
+                      ບົດຄວາມ
                     </a>
                   </Link>
                 </li>

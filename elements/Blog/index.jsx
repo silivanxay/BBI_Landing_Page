@@ -183,8 +183,6 @@ const index = (props) => {
                     className="w-full transition ease-in-out hover:scale-125 duration-700"
                     src={e.img}
                     alt="image"
-                    // height={400}
-                    // width={500}
                     onClick={() =>
                       props.actBlogdetail({
                         blogdetails: {
