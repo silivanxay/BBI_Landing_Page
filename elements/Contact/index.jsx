@@ -190,7 +190,7 @@ export const Contact = () => {
             </div>
           </div>
           <div data-aos="fade-up" className="mx-auto">
-            <GoogleMaps/>
+            <GoogleMaps />
           </div>
         </div>
       </section>

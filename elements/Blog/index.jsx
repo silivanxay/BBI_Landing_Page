@@ -4,7 +4,6 @@ import React from "react";
 import { connect } from "react-redux";
 import { actBlogdetail } from "../../redux/actions/conterActions";
 import Link from "next/link";
-import Image from "next/image";
 const index = (props) => {
   // const dispatch = useDispatch();
   const data = [
