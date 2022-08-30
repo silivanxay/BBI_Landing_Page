@@ -115,8 +115,6 @@ export const JoinUs = () => {
               </div>
               <div className="mb-2">
                 <label
-                  for="uname"
-                  aria-label="Left align"
                   className={`${
                     validate === "ຊື່ວ່າງເປົ່າ !" ? "text-red-500" : ""
                   } mb-2 font-medium`}
@@ -124,7 +122,6 @@ export const JoinUs = () => {
                   User Name <span className="text-red-500">*</span>
                 </label>
                 <input
-                  id="uname"
                   className={`${
                     validate === "ຊື່ວ່າງເປົ່າ !" ? "border-red-500" : ""
                   } border outline-none rounded-md w-full p-2`}
@@ -135,15 +132,10 @@ export const JoinUs = () => {
                 />
               </div>
               <div className="mb-2">
-                <label
-                  for="fname"
-                  aria-label="Left align"
-                  className={`mb-2 font-medium`}
-                >
+                <label aria-label="Left align" className={`mb-2 font-medium`}>
                   First Name
                 </label>
                 <input
-                  id="fname"
                   className={`border outline-none rounded-md w-full p-2`}
                   onChange={(e) => setFirstname(e.target.value)}
                   type="text"
@@ -151,15 +143,10 @@ export const JoinUs = () => {
                 />
               </div>
               <div className="mb-2">
-                <label
-                  for="lname"
-                  aria-label="Left align"
-                  className={`mb-2 font-medium`}
-                >
+                <label aria-label="Left align" className={`mb-2 font-medium`}>
                   Last Name
                 </label>
                 <input
-                  id="lname"
                   className={`border outline-none rounded-md w-full p-2`}
                   onChange={(e) => setLastname(e.target.value)}
                   type="text"
@@ -168,7 +155,6 @@ export const JoinUs = () => {
               </div>
               <div className="mb-2">
                 <label
-                  for="email"
                   aria-label="Left align"
                   className={`block ${
                     validate === "ອີ່ເມລວ່າງເປົ່າ !" ? "text-red-500" : ""
@@ -177,7 +163,6 @@ export const JoinUs = () => {
                   Email <span className="text-red-500">*</span>
                 </label>
                 <input
-                  id="email"
                   className={`${
                     validate === "ອີ່ເມລວ່າງເປົ່າ !" ? "border-red-500" : ""
                   } border outline-none rounded-md w-full p-2`}
@@ -190,7 +175,6 @@ export const JoinUs = () => {
               </div>
               <div className="mb-2">
                 <label
-                  for="pwd"
                   aria-label="Left align"
                   className={`block ${
                     validate === "ລະຫັດວ່າງເປົ່າ !" ? "text-red-500" : ""
@@ -199,7 +183,6 @@ export const JoinUs = () => {
                   Password <span className="text-red-500">*</span>
                 </label>
                 <input
-                  id="pwd"
                   className={`${
                     validate === "ລະຫັດວ່າງເປົ່າ !" ? "border-red-500" : ""
                   } border outline-none rounded-md w-full p-2`}
@@ -212,7 +195,6 @@ export const JoinUs = () => {
               </div>
               <div className="mb-2">
                 <label
-                  for="cpwd"
                   aria-label="Left align"
                   className={`block ${
                     validate === "ລະຫັດຢືນຢັນວ່າງເປົ່າ !" ? "text-red-500" : ""
@@ -221,7 +203,6 @@ export const JoinUs = () => {
                   Confirm Password <span className="text-red-500">*</span>
                 </label>
                 <input
-                  id="cpwd"
                   className={`${
                     validate === "ລະຫັດຢືນຢັນວ່າງເປົ່າ !"
                       ? "border-red-500"
