@@ -4,15 +4,13 @@ import React from "react";
 import { connect } from "react-redux";
 import { actBlogdetail } from "../../redux/actions/conterActions";
 import Link from "next/link";
-import Image from "next/image";
 const index = (props) => {
-  // const dispatch = useDispatch();
   const data = [
     {
       img: "flex-ui-assets/images/blog/BOPIS.webp",
       id: "1",
       build_img: "flex-ui-assets/images/blog/logoblog.png",
-      name: "ດຣ ບຸ້ຍ ສິລິວັນໄຊ",
+      name: "ປອ ສິລິວັນໄຊ ເພັດສຸວັນ",
       degree: "CEO | Advance Programer",
       date: "Bui PSV • 16 May 2022",
       detail:
