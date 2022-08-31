@@ -1,6 +1,6 @@
 export const heroContent = {
   header: "e-commerce",
-  headline: "ມາເລີ່ມຮ້ານອອນໄລນ໌ຂອງທ່ານໄດ້ຕະຫຼອດ 24 ຊົ່ວໂມງ",
+  headline: "ມາເລີ່ມຮ້ານຂາຍ Online ຂອງທ່ານໄດ້ທີ່ເປີດຕະຫຼອດ 24 ຊົ່ວໂມງ",
   context: [
     {
       text: "ຂ້າມຄວາມເຈັບປວດເຫຼົ່ານັ້ນຈາກການໃຊ້ເຟສບຸກເປັນຮ້ານອອນໄລນ໌ຂອງເຈົ້າ - ບໍ່ມີຫົວຂໍ້ດຽວກັນສໍາລັບທຸກໆຮ້ານ, ບໍ່ມີການຈ່າຍເງິນອອນໄລນ໌ອີກຕໍ່ໄປ. ທີ່ນີ້, ພວກເຮົາໃຫ້ທ່ານປັບແຕ່ງຮ້ານຄ້າຂອງທ່ານໃຫ້ເຫມາະສົມກັບຍີ່ຫໍ້ແລະຮູບແບບຂອງທ່ານແລະສ່ວນທີ່ເຫຼືອທັງຫມົດຂອງລະບົບອີຄອມເມີຊຂອງທ່ານແມ່ນຂັບເຄື່ອນໂດຍ API e-commerce Bamboo BI headless ຂອງພວກເຮົາ.",
@@ -18,11 +18,11 @@ export const posContent = {
     },
     {
       icon: "/flex-ui-assets/icons/Customer Management@2x-8.png",
-      text: "ການຈັດການລູກຄ້າ",
+      text: "ການຈັດການຂໍ້ມູນລູກຄ້າ",
     },
     {
       icon: "/flex-ui-assets/icons/Integrations@2x-8.png",
-      text: "ຈັດການສິນຄ້າໃນຄັງແບບຜະສົມຜະສານ",
+      text: "ຈັດການຂໍ້ມູນສິນຄ້າໃນສາງ ທີ່ເຊື່ອມຕໍ່ກັບ Feuture ອື່ນ",
     },
     {
       icon: "/flex-ui-assets/icons/A User-Friendly Interface@2x-8.png",
@@ -54,15 +54,15 @@ export const storeContent = {
     },
     {
       icon: "/flex-ui-assets/icons/A User-Friendly Interface@2x-8.png",
-      text: "ການນໍາທາງທີ່ເປັນມິດກັບຜູ້ໃຊ້, ການຊອກຫາ, ແລະການກັ່ນຕອງຜະລິດຕະພັນ",
+      text: "ການນໍາໃຊ້ເປັນມິດກັບຜູ້ໃຊ້, ມີການຊອກຫາ, ແລະ ການກັ່ນຕອງສິນຄ້າ",
     },
     {
       icon: "/flex-ui-assets/icons/FAQ sectio@2x-8.png",
-      text: "ສ່ວນຄຳຖາມທີ່ພົບຫລາຍ",
+      text: "ມີໜ້າຄຳຖາມຍອດຮິດ",
     },
     {
       icon: "/flex-ui-assets/icons/Enticing product descriptions@2x-8.png",
-      text: "ລາຍລະອຽດຂອງຜະລິດຕະພັນທີ່ດືງດູດ",
+      text: "ມີໜ້າລາຍລະອຽດຂອງສິນຄ້າທີ່ດືງດູດໃຈ",
     },
   ],
 };
@@ -82,19 +82,19 @@ export const inventoryContent = {
     },
     {
       icon: "/flex-ui-assets/icons/Sales Management@2x-8.png",
-      text: "ຈັດການການຂາຍ",
+      text: "ຈັດການສິນຄ້າຂາຍ",
     },
     {
       icon: "/flex-ui-assets/icons/Integrated Inventory Management@2x-8.png",
-      text: "ເຊື່ອມໂຍງກັບລະບົບ POS-ໜ້າຮ້ານ",
+      text: "ເຊື່ອມໂຍງກັບລະບົບ POS ແລະ ໜ້າຮ້ານອອນລາຍ",
     },
     {
       icon: "/flex-ui-assets/icons/Sales Reporting _ Analytics@2x-8.png",
-      text: "​ລາຍ​ງານ ​ແລະ ​ການ​ວິ​ເຄາະ​ຂໍ້​ມູນ​",
+      text: "ລາຍ​ງານ ​ແລະ ​ການ​ວິ​ເຄາະ​ຂໍ້​ມູນ​​",
     },
     {
       icon: "/flex-ui-assets/icons/Inventory Forecasting@2x-8.png",
-      text: "ພະຍາກອນສິນຄ້າໃນຄັງ",
+      text: "ຄາດການ ການສຳຮອງສິນຄ້າໃນຄັງ",
     },
   ],
 };
@@ -135,5 +135,3 @@ export const dMarketingImage = [
   "/flex-ui-assets/images/digitalMarketing/digital marketing1-100.jpg",
   "/flex-ui-assets/images/digitalMarketing/market@2x-100.jpg",
 ];
-
-
