@@ -16,9 +16,9 @@ import {
 export default function index() {
   return (
     <div id="feature">
-      <SectionLine>ການໃຫ້ບໍລິການ ແລະ Features</SectionLine>
+      <SectionLine>ການໃຫ້ບໍລິການ</SectionLine>
       <LeftSide image={posImage} content={posContent} />
-      <RightSide image={storeImage} content={storeContent} /> 
+      <RightSide image={storeImage} content={storeContent} />
       <LeftSide image={inventoryImage} content={inventoryContent} />
       <RightSide image={dMarketingImage} content={dMarketingContent} />
     </div>

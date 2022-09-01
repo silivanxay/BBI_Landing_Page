@@ -99,8 +99,8 @@ export const JoinUs = () => {
         data-aos="fade-up"
         className="relative pt-16 pb-0 md:py-32 text-coolGray-900 dark:text-white"
       >
-        <div className="container px-4 mx-auto mb-16">
-          <div className="w-full md:w-3/5 lg:w-1/2">
+        <div className="container px-4 mx-auto mb-16 ">
+          <div className="w-full lg:w-1/2 md-items-center">
             <div className="max-w-sm mx-auto">
               <div className="mb-6 text-center">
                 <div className="flex justify-center">
@@ -115,7 +115,6 @@ export const JoinUs = () => {
               </div>
               <div className="mb-2">
                 <label
-                  aria-label="Left align"
                   className={`${
                     validate === "ຊື່ວ່າງເປົ່າ !" ? "text-red-500" : ""
                   } mb-2 font-medium`}
@@ -278,12 +277,13 @@ export const JoinUs = () => {
             height="600"
           />
         </div> */}
-
-        <img
-          className="md:absolute md:top-0 md:right-0 mx-auto md:h-full md:w-2/5 lg:w-1/2 md:object-fill"
-          src="flex-ui-assets/logos/aboutus-100.webp"
-          alt="img"
-        />
+        <div className="m-10">
+          <img
+            className="lg:w-1/2 flex flex-wrap items-center mb-16  lg:absolute md:top-0 md:right-0 mx-auto md:h-full mt-auto m-10"
+            src="flex-ui-assets/logos/aboutus-100.webp"
+            alt="img"
+          />
+        </div>
       </section>
     </div>
   );

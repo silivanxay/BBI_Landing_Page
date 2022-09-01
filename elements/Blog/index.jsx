@@ -5,16 +5,17 @@ import { connect } from "react-redux";
 import { actBlogdetail } from "../../redux/actions/conterActions";
 import Link from "next/link";
 const index = (props) => {
+  // const dispatch = useDispatch();
   const data = [
     {
       img: "flex-ui-assets/images/blog/BOPIS.webp",
       id: "1",
       build_img: "flex-ui-assets/images/blog/logoblog.png",
-      name: "ປອ ສິລິວັນໄຊ ເພັດສຸວັນ",
-      degree: "CEO | Advance Programer",
-      date: "Bui PSV • 16 May 2022",
+      name: "ປອ ສີລິວັນໄຊ ເພັດສຸວັນ",
+      degree: "ICT Advisor",
+      date: "16 May 2022",
       detail:
-        "ທຸລະກິດຂະຫນາດນ້ອຍແມ່ນພຽງແຕ່ດີເທົ່າກັບເຄື່ອງມືຂອງມັນແລະມັນເປັນຄວາມຈິງທັງຫມົດ.",
+        "Model ທຸລະກິດຂະຫນາດນ້ອຍ ທີ່ໃຊ້ເຄື່ອງມືໃນການຂາຍອອນລາຍ.",
       des: "ພວກ​ເຮົາ​ທຸກ​ຄົນ​ໄດ້​ປະ​ສົບ​ກັບ​ຄວາມ​ວຸ່ນ​ວາຍ​ຂອງ​ຂະ​ບວນ​ການ​ຮັບ​ຫຼື​ການ​ຈັດ​ສົ່ງ​ຫຼາຍ​, ເຄື່ອງມືຕິດຕາມ ແລະ ຂໍ້ມູນທີ່ເລິກເຊີ່ງ...",
       list: [
         {
@@ -86,12 +87,12 @@ const index = (props) => {
     {
       img: "flex-ui-assets/logos/shoe_choose.webp",
       id: "2",
-      name: "ດຣ ບຸ້ຍ ສິລິວັນໄຊ",
-      degree: "CEO | Advance Programer",
+      name: "ປອ ສິລິວັນໄຊ ເພັດສຸວັນ",
+      degree: "ICT Advisor",
       build_img: "flex-ui-assets/images/blog/logoblog.png",
-      date: "Bui PSV • 29 Jun 2022",
+      date: "29 Jun 2022",
       detail: `5 ເທັກນິກໃນການເລືອກ " ເກີບຜ້າໃບ " ຄູ່ໃຈຂອງທ່ານ`,
-      des: `ສຳລັບໃຜທີ່ກຳລັງຈະເລືອກຊື້ເກີບຈັກຄູ່ໜື່ງໄວ້ອອກກຳລັງກາຍ ຫືຼວ່າ ໃສ່ເດີນທາງໄປທ່ອງທ່ຽວ ມື້ນີ້ທາງຮ້ານ Bamboo BI ຂໍນຳສະເໜີ 5ເທັກນິກ ເລືອກ "ເກີບຜ້າໃບ" ຄູ່ໃຈ ໃຫ້ທ່ານໄດ້ລອງໃຊ້ໃນການເລືອກເກີບຜ້າໃບໃຫ້ເທດເໝາະກັບໂຕທ່ານເອງ.`,
+      des: `ສຳລັບໃຜທີ່ກຳລັງຈະເລືອກຊື້ເກີບຄູ່ໜື່ງໄວ້ອອກກຳລັງກາຍ ຫືຼວ່າ ໃສ່ເດີນທາງໄປທ່ອງທ່ຽວ ມື້ນີ້ທາງຮ້ານ Bamboo BI ຂໍນຳສະເໜີ 5ເທັກນິກ ເລືອກ "ເກີບຜ້າໃບ" ຄູ່ໃຈ ໃຫ້ທ່ານໄດ້ລອງໃຊ້ໃນການເລືອກເກີບຜ້າໃບໃຫ້ແທດເໝາະກັບໂຕທ່ານເອງ...`,
       list: [
         {
           title: `ສຳລັບໃຜທີ່ກຳລັງຈະເລືອກຊື້ເກີບຈັກຄູ່ໜື່ງໄວ້ອອກກຳລັງກາຍ ຫືຼວ່າ ໃສ່ເດີນທາງໄປທ່ອງທ່ຽວມື້ນີ້ທາງຮ້ານ Bamboo BI ຂໍນຳສະເໜີ 5ເທັກນິກ ເລືອກ "ເກີບຜ້າໃບ" ຄູ່ໃຈ ໃຫ້ທ່ານໄດ້ລອງໃຊ້ໃນການເລືອກເກີບຜ້າໃບໃຫ້ເທດເໝາະກັບໂຕທ່ານເອງ.`,
@@ -128,11 +129,11 @@ const index = (props) => {
       img: "flex-ui-assets/images/blog/blog3.webp",
       id: "3",
       name: "ທ້າວ ນ້ອຍ ວິໄລຈິດ",
-      degree: "Programming | Growth Hacking | Writing | Side Hustle",
+      degree: "Programmer",
       build_img: "flex-ui-assets/images/blog/logoblog1.jpeg",
-      date: "Bui PSV • 2 July 2022",
+      date: "2 July 2022",
       detail: "Demo ວິດີໂອພິມບິນສິນຄ້າໂດຍຜ່ານເວັບໄຊ Bamboo BI",
-      des: "ການສາທິດ Preview ວິດີໂອສາທິດລະບົບເລືອກຊື້ ແລະ ພີມບີນຜ່ານເວັບໄຊ",
+      des: "ການສາທິດ Preview ລະບົບເລືອກຊື້ ແລະ ພິມບີນຜ່ານເວັບໄຊ...",
       list: [
         {
           title:
@@ -159,8 +160,8 @@ const index = (props) => {
               Facebook Post
             </h3>
             <p className="text-lg font-medium md:text-xl text-coolGray-900 dark:text-white">
-              ດ້ວຍແພຕຟອຣ໌ມອີຄອມເມີຊຂອງພວກເຮົາ,
-              ປະສົບການຂອງຜູ້ໃຊ້ອອນໄລນ໌ແລະປະສົບການຜູ້ໃຊ້ອອບໄລນ໌ຈະເບິ່ງຄືວ່າບໍ່ປະສົມປະສານ.
+              ໂດຍ Platform ພວກເຮົາ,
+              ບົດຄວາມ ກ່ຽວກັບປະສົບການຂອງຜູ້ໃຊ້ອອນໄລນ໌ ແລະ ປະສົບການຜູ້ໃຊ້ອອນລາຍ ທີ່ແຕກໂຕນກັນ.
             </p>
           </div>
           <div className="w-full md:w-1/4">
@@ -181,8 +182,6 @@ const index = (props) => {
                     className="w-full transition ease-in-out hover:scale-125 duration-700"
                     src={e.img}
                     alt="image"
-                    // height={400}
-                    // width={500}
                     onClick={() =>
                       props.actBlogdetail({
                         blogdetails: {

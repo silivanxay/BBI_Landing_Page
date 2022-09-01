@@ -3,7 +3,7 @@ export const heroContent = {
   headline: "ມາເລີ່ມຮ້ານຂາຍ Online ຂອງທ່ານໄດ້ທີ່ເປີດຕະຫຼອດ 24 ຊົ່ວໂມງ",
   context: [
     {
-      text: "ລືມຄວາມເຈັບປວດຈາກການໃຊ້ Facebook Page ເປັນຮ້ານຂາຍ Online - ມັນບໍ່ມີຢາວິເສດທີ່ ແກ້ໄດ້ບັນຫາທຸກໆຮ້ານ, ເປັນຕົ້ນ ບໍ່ສາມາດຈ່າຍເງິນອອນລາຍໄດ້. ຢູ່ໃນ Platform ນີ້, ທ່ານພຽງແຕ່ປັບແຕ່ງຮ້ານຄ້າຂອງທ່ານໃຫ້ເຫມາະສົມກັບ Brand ແລະ Theme ຂອງທ່ານ ແລະ ເຫຼືອນັ້ນແມ່ນລະບົບ ຮ້ານຂອງທ່ານ ຈະຖືກຈັດການໂດຍ Headless API ເຊີ່ງມີການ ອັບເດດ ແລະ ຄຸ້ມຄອງຢູ່ເລື້ອຍໆ.",
+      text: "ຂ້າມຄວາມເຈັບປວດເຫຼົ່ານັ້ນຈາກການໃຊ້ເຟສບຸກເປັນຮ້ານອອນໄລນ໌ຂອງເຈົ້າ - ບໍ່ມີຫົວຂໍ້ດຽວກັນສໍາລັບທຸກໆຮ້ານ, ບໍ່ມີການຈ່າຍເງິນອອນໄລນ໌ອີກຕໍ່ໄປ. ທີ່ນີ້, ພວກເຮົາໃຫ້ທ່ານປັບແຕ່ງຮ້ານຄ້າຂອງທ່ານໃຫ້ເຫມາະສົມກັບຍີ່ຫໍ້ແລະຮູບແບບຂອງທ່ານແລະສ່ວນທີ່ເຫຼືອທັງຫມົດຂອງລະບົບອີຄອມເມີຊຂອງທ່ານແມ່ນຂັບເຄື່ອນໂດຍ API e-commerce Bamboo BI headless ຂອງພວກເຮົາ.",
     },
   ],
 };
@@ -25,7 +25,7 @@ export const posContent = {
       text: "ຈັດການຂໍ້ມູນສິນຄ້າໃນສາງ ທີ່ເຊື່ອມຕໍ່ກັບ Feuture ອື່ນ",
     },
     {
-       icon: "/flex-ui-assets/icons/A User-Friendly Interface@2x-8.png",
+      icon: "/flex-ui-assets/icons/A User-Friendly Interface@2x-8.png",
       text: "ເປັນມິດຕໍ່ຜູ້ໃຊ້",
     },
     {
@@ -78,7 +78,7 @@ export const inventoryContent = {
   context: [
     {
       icon: "/flex-ui-assets/icons/Purchase Order and Stock Management@2x-8.png",
-      text: "ການ​ສັ່ງ​ຊື້ ​ແລະ​ ການ​ຄຸ້ມ​ຄອງ​ສິນຄ້າໃນສາງ​",
+      text: "ການ​ສັ່ງ​ຊື້ ​ແລະ​ ການ​ຄຸ້ມ​ຄອງນຳເຂົ້າສິນຄ້າ​",
     },
     {
       icon: "/flex-ui-assets/icons/Sales Management@2x-8.png",
@@ -90,7 +90,7 @@ export const inventoryContent = {
     },
     {
       icon: "/flex-ui-assets/icons/Sales Reporting _ Analytics@2x-8.png",
-      text: "​ລາຍ​ງານ ​ແລະ ​ການ​ວິ​ເຄາະ​ຂໍ້​ມູນສິນຄ້າ​",
+      text: "ລາຍ​ງານ ​ແລະ ​ການ​ວິ​ເຄາະ​ຂໍ້​ມູນ​​",
     },
     {
       icon: "/flex-ui-assets/icons/Inventory Forecasting@2x-8.png",
@@ -135,5 +135,3 @@ export const dMarketingImage = [
   "/flex-ui-assets/images/digitalMarketing/digital marketing1-100.jpg",
   "/flex-ui-assets/images/digitalMarketing/market@2x-100.jpg",
 ];
-
-
