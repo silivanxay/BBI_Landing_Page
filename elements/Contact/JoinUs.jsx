@@ -93,7 +93,7 @@ export const JoinUs = () => {
     }
   };
   return (
-    <div id="about">
+    <div id="contact">
       <section className="py-24 md:pb-28 text-coolGray-900 dark:text-white">
         <div className="container px-4 mx-auto">
           <div data-aos="fade-up" className="flex flex-wrap mx-4">
