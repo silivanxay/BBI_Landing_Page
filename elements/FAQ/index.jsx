@@ -4,13 +4,14 @@ export default function index() {
   return (
     <section
       id="faq"
-      className="py-24"
+      className="py-24 justify-center align-middle"
       style={{
         backgroundImage:
           'url("flex-ui-assets/images/testimonials/FAQ-background.webp")',
         backgroundRepeat: "no-repeat",
         backgroundSize: "auto",
         backgroundAttachment: "fixed",
+        backgroundPosition: "center",
       }}
     >
       <div className="container px-4 mx-auto ">
@@ -54,5 +55,6 @@ export default function index() {
         </div>
       </div>
     </section>
+    
   );
 }
