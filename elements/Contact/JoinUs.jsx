@@ -96,9 +96,19 @@ export const JoinUs = () => {
     <div id="about">
       <section className="py-24 md:pb-28 text-coolGray-900 dark:text-white">
         <div className="container px-4 mx-auto">
-          <div data-aos="fade-up" className="flex flex-wrap -mx-4">
+          <div data-aos="fade-up" className="flex flex-wrap mx-4">
+            <div className="w-full lg:w-1/2 px-4 mb-10 lg:mb-0">
+              <div className="relative transition-all h-full overflow-hidden max-w-max mx-auto rounded-md">
+                <img
+                  src="flex-ui-assets/logos/bi.png"
+                  alt="image"
+                  className="cursor-pointer transition ease-in-out hover:scale-125 duration-700"
+                />
+              </div>
+            </div>
+            {/* END OF IMAGE */}
             <div className="w-full lg:w-1/2 px-4">
-              <div className="container px-4 mx-auto mb-16  justify-items-end">
+              <div className="container px-4 mx-auto mb-16 ">
                 <div className="w-full lg:w-1/2 md-items-center">
                   <div className="max-w-sm mx-auto">
                     <div className="mb-6 text-center">
@@ -273,15 +283,7 @@ export const JoinUs = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-1/2 px-4 mb-10 lg:mb-0">
-              <div className="relative transition-all h-full overflow-hidden max-w-max mx-auto rounded-md">
-                <img
-                  src="flex-ui-assets/logos/bi.png"
-                  alt="image"
-                  className="cursor-pointer transition ease-in-out hover:scale-125 duration-700"
-                />
-              </div>
-            </div>
+            {/* END OF CARD INPUT */}
           </div>
         </div>
       </section>
