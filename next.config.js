@@ -38,6 +38,37 @@ const nextConfig = withPWA({
     runtimeCaching,
     buildExcludes: [/middleware-manifest.json$/],
   },
-  headers
+  headers,
 });
 module.exports = nextConfig;
+module.exports = {
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
+  },
+};
+module.exports = {
+  experimental: {
+    images: {
+      remotePatterns: [
+        {
+          protocol: "https",
+          hostname: "example.com",
+          port: "",
+          pathname: "/account123/**",
+        },
+      ],
+    },
+  },
+};
+module.exports = {
+  experimental: {
+    externalDir:
+      true |
+      {
+        enabled: true,
+        silent: true,
+      },
+  },
+};

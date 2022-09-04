@@ -9,9 +9,7 @@ export default function Logo(props) {
       <a className="block ">
         <Image
           onClick={props.onClick}
-          // src={logo.image}
           src={IMG}
-          // scrset={("IMG", "70px", "40px")}
           width="70"
           height="40"
           alt="img"

@@ -1,18 +1,18 @@
 import React from "react";
-import GoogleMapReact from "google-map-react";
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+// import GoogleMapReact from "google-map-react";
+// const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const GoogleMaps = () => {
-  const defaultProps = {
-    center: {
-      lat: 17.95865078776269,
-      lng: 102.6263755,
-    },
-    zoom: 17,
-  };
+  // const defaultProps = {
+  //   center: {
+  //     lat: 17.95865078776269,
+  //     lng: 102.6263755,
+  //   },
+  //   zoom: 17,
+  // };
   return (
     <div>
-      <div className="w-full h-96">
+      {/* <div className="w-full h-96">
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyD6AUPIR0eIiGldIIo0b06uqLxlZDyQh-I" }}
           defaultCenter={defaultProps.center}
@@ -24,7 +24,7 @@ const GoogleMaps = () => {
             text="Bamboo BI"
           />
         </GoogleMapReact>
-      </div>
+      </div> */}
       {/* <div className="w-full h-96">
 
       </div>  */}
