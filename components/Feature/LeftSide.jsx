@@ -1,7 +1,7 @@
 import React from "react";
-import Article from "../../components/common/Article";
-import Button from "../../components/common/Button";
-import IntervalImage from "../../components/common/IntervalImage";
+import Article from "../elements/common/Article";
+import Button from "../elements/common/Button";
+import IntervalImage from "../elements/common/IntervalImage";
 
 export default function LeftSide(props) {
   const { content, image } = props;

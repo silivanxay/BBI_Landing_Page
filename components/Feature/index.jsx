@@ -1,7 +1,7 @@
 import React from "react";
 import LeftSide from "./LeftSide";
-import RightSide from "./RIghtSide";
-import SectionLine from "../../components/common/SectionLine";
+import RightSide from "./RightSide";
+import SectionLine from "../elements/common/SectionLine";
 import {
   storeContent,
   storeImage,

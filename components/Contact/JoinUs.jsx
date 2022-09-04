@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
-import Logo from "../../components/Hero/Logo";
+import Logo from "../elements/common/Logo";
 import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Link from "next/link";
 export const JoinUs = () => {
@@ -268,8 +268,7 @@ export const JoinUs = () => {
                         </div>
                       ) : null}
                       {loading ? "" : "ຕົກລົງ"}
-                    </button>
-                    <p className="text-center">
+                    </button>                    <p className="text-center">
                       <span className="text-base font-medium">
                         ມີລະຫັດແລ້ວ?
                       </span>

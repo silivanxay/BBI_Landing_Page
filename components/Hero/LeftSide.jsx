@@ -1,6 +1,6 @@
 import React from "react";
 import IMG from "../../public/flex-ui-assets/images/uxui/mock.webp";
-import Article from "../../components/common/Article";
+import Article from "../elements/common/Article";
 import { heroContent } from "../../util/data";
 import Image from "next/image";
 export default function LeftSide() {

@@ -1,5 +1,5 @@
 import React from "react";
-import GoogleMaps from "../../components/GoogleMap/GoogleMaps";
+import GoogleMaps from "../elements/GoogleMap/GoogleMaps";
 import { JoinUs } from "./JoinUs";
 export const Contact = () => {
   return (

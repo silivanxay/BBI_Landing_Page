@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import CrossButton from "../../components/Hero/CrossButton";
-import Humbeger from "../../components/Hero/Humbuger";
-import InvertedButton from "../../components/common/InvertedButton";
-import Logo from "../../components/Hero/Logo";
-import Button from "../../components/common/Button";
-import Toggle from "../../components/Darkmode/ThemeToggle";
+import CrossButton from "./elements/CrossButton";
+import Humbeger from "./elements/Humbuger";
+import InvertedButton from "../elements/common/InvertedButton"
+import Logo from "../elements/common/Logo";
+import Button from "../elements/common/Button";
+import Toggle from "../elements/Darkmode/ThemeToggle";
 import Link from "next/link";
 
 export default function Navbar() {

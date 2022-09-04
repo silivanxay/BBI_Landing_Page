@@ -1,15 +1,14 @@
 import React from "react";
 import Link from "next/link";
 import { actBlogdetail } from "../../redux/actions/conterActions";
-// import { useSelector } from "react-redux";
-import { Footer } from "../../elements/Footer/Footer";
-import Back2TopButton from "../../components/common/Back2TopButton";
-import { ThemeProvider } from "../../components/Darkmode/ThemeContext";
-// import LeftBlog from "./LeftBlog";
-// import RightBlog from "./RightBlog";
-import Navbar from "../../elements/Hero/Navbar";
+
+import { Footer } from "../../components/Footer/Footer";
+import Back2TopButton from "../../components/elements/common/Back2TopButton";
+import { ThemeProvider } from "../../components/elements/Darkmode/ThemeContext";
+
+import Navbar from "../../components/Hero/Navbar";
 import { connect } from "react-redux";
-import Parser from "../../components/blog/Parser";
+import Parser from "../../components/elements/blog/Parser";
 // import Preloader from "../../components/common/Preloader/Preloader";
 import Image from "next/image";
 function index(props) {

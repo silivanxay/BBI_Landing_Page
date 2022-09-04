@@ -1,6 +1,5 @@
 import React from "react";
-import Video from "../../components/common/Video";
-import Image from "next/image";
+import Video from "../elements/common/Video";
 
 export default function index() {
   return (

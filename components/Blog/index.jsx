@@ -176,7 +176,7 @@ const index = (props) => {
         <div data-aos="fade-up" className="flex flex-wrap -mx-4">
           {data.map((e, key) => (
             <div className="w-full px-4 mb-8 md:w-1/2 lg:w-1/3" key={key}>
-              <Link href="/Blog">
+              <Link href="/">
                 <a className="relative transition-all block mb-6 overflow-hidden rounded-md">
                   <img
                     className="w-full transition ease-in-out hover:scale-125 duration-700"
@@ -213,23 +213,6 @@ const index = (props) => {
                 {e.des}
               </p>
             </div>
-            // <Post
-            //   date={e.date}
-            //   img={e.img}
-            //   des={e.des}
-            //   detail={e.detail}
-            //   onClick={() =>
-            //     props.actBlogdetail({
-            //       blogdetails: {
-            //         date: e.date,
-            //         img: e.img,
-            //         des: e.des,
-            //         detail: e.detail,
-            //         list: e.list,
-            //       },
-            //     })
-            //   }
-            // />
           ))}
         </div>
       </div>

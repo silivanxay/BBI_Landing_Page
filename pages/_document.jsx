@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import Background from "../components/Darkmode/Background";
+import Background from "../components/elements/Darkmode/Background";
 import { getLangFromReq } from "../util/fromReq";
 import { getCsp } from "../util/csp";
 class MyDocument extends Document {
